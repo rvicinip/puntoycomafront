@@ -1,0 +1,56 @@
+ /* input[type=file] {
+    width: 100%;
+    z-index: 50;
+    height: 38px;
+    cursor: pointer;
+    opacity: 0;
+    border: 1px solid #000;
+    }
+   */
+      
+    /*
+     * Styles for demo only
+     */
+    $basecolor: #447df7;
+    
+    body {
+      background-color: #ffffff;
+
+    }
+    .container {
+      padding: 4rem 5rem;
+      background-color: #fff;
+      border-radius: 1rem;
+      width: 100%;
+      max-width: 45rem;
+    }
+    h1 {
+      color: #fff;
+      font-size: 2.8rem;
+      font-weight: 600;
+      margin: 0 0 0.5rem 0;
+      background: -webkit-linear-gradient(#fff, #999);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-align: center;
+    }
+    h4 {
+      color: lighten(#5c3d86,30%);
+      font-size: 1.5rem;
+      font-weight: 400;
+      text-align: center;
+      margin: 0 0 3.5rem 0;
+    }
+    .btn.btn-primary {
+      background-color: $basecolor;
+      border-color: $basecolor;
+      outline: none;
+      &:hover {
+        background-color: darken($basecolor, 10%);
+        border-color: darken($basecolor, 10%);
+      }
+      &:active, &:focus {
+        background-color: lighten($basecolor, 5%);
+        border-color: lighten($basecolor, 5%);
+      }
+    }
