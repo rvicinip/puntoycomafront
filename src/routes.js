@@ -38,7 +38,7 @@ var routes = [
 {
     path: "/diccionario",
     layout: "/cliente", 
-    name: "Seleccion Actividades",
+    name: "Seleccion Actividades", 
     icon: "nc-icon nc-paper-2",
     tablero: true,
     component: ListaActividadesASeleccionar
