@@ -27,7 +27,14 @@ import ListaConsultores from "components/Gerencia/ListaConsultores.js"
 
 
 var routes = [ 
-
+{
+    path: "/diccionario",
+    layout: "/cliente", 
+    name: "Seleccion Actividades",
+    icon: "nc-icon nc-paper-2",
+    tablero: true,
+    component: ListaActividadesASeleccionar
+},
 {
     path: "/diccionario",
     layout: "/cliente",
