@@ -1,6 +1,6 @@
 // Componente: routes.js
 // Autor: Reinaldo Vicini
-// Fecha: 2021/01/14
+// Fecha: 2021/09/14
 // Descripcion: 
 // Parametros:  
 //
@@ -9,19 +9,17 @@
 
 import CambioClave from "components/Login/CambioClave.js";
 import TerminarSesion from "components/Login/TerminarSesion.js";
-
-import CierreRegistrarActividades from "components/Cliente/CierreRegistrarActividades.js";
-import ListaActividadesASeleccionar from "components/Cliente/ListaActividadesASeleccionar.js";
-import ListaTomasTiempo from "components/Cliente/ListaTomasTiempo.js"
-
-import ListaActividades from "components/Consultor/ListaActividades.js";
-import ListaPersonal from "components/Consultor/ListaPersonal.js";
-import SeleccionEmpresa from "components/Consultor/SeleccionEmpresa.js"
-import SubirArchivos from "components/Consultor/SubirArchivos.js"
-import TablaFrecuenciasConsultor from "components/Consultor/TablaFrecuenciasConsultor.js"
-
-import AgregarEmpresa from "components/Gerencia/AgregarEmpresa.js"
-import ListaConsultores from "components/Gerencia/ListaConsultores.js"
+import AnalisisVentas from "components/Empresa/AnalisisVentas.js";
+import CorreosPromocion from "components/Empresa/CorreosPromocion.js";
+import EfectividadCampana from "components/Empresa/EfectividadCampana.js"
+import OfertasyPromos from "components/Empresa/OfertasyPromos.js";
+import PatronesConsumo from "components/Empresa/PatronesConsumo.js";
+import Redencion from "components/Empresa/Redencion.js"
+import SeguimientoCliente from "components/Empresa/SeguimientoCliente.js"
+import SMSPromocion from "components/Empresa/TablaFrecuenciasConsultor.js"
+import SubirFacturas from "components/Empresa/SubirFacturas.js"
+import SubirIncentivos from "components/Empresa/SubirIncentivos.js"
+import Usuarios from "components/Empresa/Usuarios.js"
 
 
 
