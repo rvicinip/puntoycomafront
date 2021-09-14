@@ -32,7 +32,7 @@ var routes = [
     layout: "/cliente", 
     name: "Seleccion Actividades",
     icon: "nc-icon nc-paper-2",
-    tablero: true,
+    tablero: true,   
     component: ListaActividadesASeleccionar
 },
 {
