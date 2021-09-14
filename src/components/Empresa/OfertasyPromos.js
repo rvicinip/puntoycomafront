@@ -8,14 +8,14 @@ import React, { useState, useEffect, useHistory  } from "react";
 // import "assets/css/vena.css";
 
 
-function CorreosPromocion() {
+function OfertasyPromos() {
 
 
     return (
         <React.Fragment>
-            <h5>APLICACION CorreosPromocion</h5>
+            <h5>APLICACION OfertasyPromos</h5>
         </React.Fragment>
     );
 }
 
-export default CorreosPromocion;
+export default OfertasyPromos;

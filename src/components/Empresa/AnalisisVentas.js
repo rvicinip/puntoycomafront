@@ -8,14 +8,14 @@ import React, { useState, useEffect, useHistory  } from "react";
 // import "assets/css/vena.css";
 
 
-function AnalisisVentas() {
+function SeguimientoCliente() {
 
 
     return (
         <React.Fragment>
-            <h5>APLICACION AnalisisVentas</h5>
+            <h5>APLICACION SeguimientoCliente</h5>
         </React.Fragment>
     );
 }
 
-export default AnalisisVentas;
+export default SeguimientoCliente;
