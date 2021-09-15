@@ -6,7 +6,9 @@
 //
 
 import React, { useEffect, useState } from "react";
-import image3 from "assets/img/full-screen-image-3.jpg";
+const relative_path = "src"
+
+import image3 from "../assets/img/full-screen-image-3.jpg";
 
 export const AppContext = React.createContext();
 

@@ -9,7 +9,8 @@ import "assets/css/vena.css";
 
 import { getInfoFull, getCompaniesAll, getCompaniesConsultor, autorizarCliente, obtenerEmpresa, obtenerDatos, listDictionaryWithInquest } from "services/ServiciosBackend";
 import * as storage from "services/ManejadorStorage";
-import { useAppContext } from "hooks/useAppContext";
+import { useAppContext } from "hooks/useAppContext"
+
 
 import { Button, Card, Form, Container, Row, Col } from "react-bootstrap";
 

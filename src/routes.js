@@ -5,19 +5,19 @@
 // Parametros:  
 //
  
-import CambioClave from "components/Login/CambioClave.js";
-import TerminarSesion from "components/Login/TerminarSesion.js";
-import AnalisisVentas from "components/Empresa/AnalisisVentas.js";
-import CorreosPromocion from "components/Empresa/CorreosPromocion.js";
-import EfectividadCampana from "components/Empresa/EfectividadCampana.js"
-import OfertasyPromos from "components/Empresa/OfertasyPromos.js";
-import PatronesConsumo from "components/Empresa/PatronesConsumo.js";
-import Redencion from "components/Empresa/Redencion.js"
-import SeguimientoCliente from "components/Empresa/SeguimientoCliente.js"
-import SMSPromocion from "components/Empresa/SMSPromocion.js"
-import SubirFacturas from "components/Empresa/SubirFacturas.js"
-import SubirIncentivos from "components/Empresa/SubirIncentivos.js"
-import Usuarios from "components/Empresa/Usuarios.js"
+import CambioClave from "./components/Login/CambioClave.js";
+import TerminarSesion from "./components/Login/TerminarSesion.js";
+import AnalisisVentas from "./components/Empresa/AnalisisVentas.js";
+import CorreosPromocion from "./components/Empresa/CorreosPromocion.js";
+import EfectividadCampana from "./components/Empresa/EfectividadCampana.js"
+import OfertasyPromos from "./components/Empresa/OfertasyPromos.js";
+import PatronesConsumo from "./components/Empresa/PatronesConsumo.js";
+import Redencion from "./components/Empresa/Redencion.js"
+import SeguimientoCliente from "./components/Empresa/SeguimientoCliente.js"
+import SMSPromocion from "./components/Empresa/SMSPromocion.js"
+import SubirFacturas from "./components/Empresa/SubirFacturas.js"
+import SubirIncentivos from "./components/Empresa/SubirIncentivos.js"
+import Usuarios from "./components/Empresa/Usuarios.js"
 
 
 

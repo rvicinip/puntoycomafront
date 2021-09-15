@@ -6,8 +6,8 @@ import { Switch, Route } from "react-router-dom";
 import { useAppContext } from "hooks/useAppContext";
 
 import routes from "routes.js";
-import Sidebar from "components/Menu/Sidebar.js";
-import Login from "components/Login/Login.js";
+import Sidebar from "../Menu/Sidebar.js";
+import Login from "../Login/Login.js"
 import { Container, Col, Row, Card } from "react-bootstrap";
 function Layout() {
   // Carga de Variables de contexto

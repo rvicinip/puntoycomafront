@@ -1,0 +1,98 @@
+Arguments: 
+  /usr/bin/node /usr/share/yarn/bin/yarn.js install
+
+PATH: 
+  /home/rvicini/anaconda3/bin:/home/rvicini/anaconda3/condabin:/home/rvicini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/go/bin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  16.9.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /media/rvicini/SSD DEV/Apps/PuntoycomaFront/package.json: Unexpected token / in JSON at position 2170
+      at JSON.parse (<anonymous>)
+      at /usr/share/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/share/yarn/lib/cli.js:310:30)
+      at /usr/share/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "puntoycomafront",
+    "version": "1.0.0",
+    "private": true,
+    "dependencies": {
+      "@babel/eslint-parser": "^7.15.4",
+      "@fortawesome/fontawesome-free": "5.15.2",
+      "@fortawesome/free-solid-svg-icons": "^5.15.3",
+      "@fortawesome/react-fontawesome": "^0.1.14",
+      "axios": "^0.21.1",
+      "axios-retry": "^3.1.9",
+      "bootstrap": "4.5.3",
+      "chartist": "0.10.1",
+      "datatables": "^1.10.18",
+      "emailjs-com": "^2.6.4",
+      "history": "5.0.0",
+      "joi": "^17.4.2",
+      "jquery": "^3.6.0",
+      "match-sorter": "6.1.0",
+      "minimatch": "^3.0.4",
+      "moment": "2.29.1",
+      "nouislider": "14.6.3",
+      "perfect-scrollbar": "1.5.0",
+      "primeicons": "^4.1.0",
+      "prop-types": "15.7.2",
+      "react": "17.0.1",
+      "react-bootstrap": "1.4.3",
+      "react-bootstrap-sweetalert": "5.2.0",
+      "react-chartist": "^0.14.4",
+      "react-data-table-component": "^6.11.7",
+      "react-data-table-component-extensions": "^1.5.2",
+      "react-dom": "17.0.1",
+      "react-icons": "^4.1.0",
+      "react-jvectormap": "0.0.16",
+      "react-router": "5.2.0",
+      "react-router-dom": "5.2.0",
+      "react-select": "^3.2.0",
+      "react-table": "7.6.3",
+      "react-tables": "^1.0.2",
+      "react-tooltip": "^4.2.18",
+      "reactstrap": "^8.9.0",
+      "styled-components": "^5.2.1",
+      "sweetalert": "^2.1.2",
+      "tabulator-tables": "^4.9.3"
+  
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject",
+      "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
+      "compile:scss": "node-sass src/assets/scss/light-bootstrap-dashboard-pro-react.scss src/assets/css/light-bootstrap-dashboard-pro-react.css",
+      "minify:scss": "node-sass src/assets/scss/light-bootstrap-dashboard-pro-react.scss src/assets/css/light-bootstrap-dashboard-pro-react.min.css --output-style compressed",
+      "map:scss": "node-sass src/assets/scss/light-bootstrap-dashboard-pro-react.scss src/assets/css/light-bootstrap-dashboard-pro-react.css --source-map true",
+      "build:scss": "npm run compile:scss && npm run minify:scss && npm run map:scss"
+    },
+   // "devDependencies": {
+   //   "gulp": "^3.9.1",
+   //   "gulp-append-prepend": "1.0.8"
+   // },
+    "browserslist": [
+      ">0.2%",
+      "not dead",
+      "not ie <= 11",
+      "not op_mini all"
+    ]
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
