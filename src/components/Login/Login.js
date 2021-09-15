@@ -268,7 +268,7 @@ return (
     <div
         className="full-page"
         data-color="#e73e47"
-        data-image={require("assets/img/vena.png").default}
+        data-image={require("assets/img/puntoycoma1.jpg").default}
     >
         <div className="content align-items-center">
             <Col className="mx-auto" lg="4" md="8">
@@ -282,7 +282,7 @@ return (
                                     <img
                                         className="logologin"
                                         alt="..."
-                                        src={require("assets/img/vena-sidebar.png").default}
+                                        src={require("assets/img/puntoycoma1.jpg").default}
                                         />
                                     </a>                   
                                     {/* <h5 className="text-center">Login BPM</h5> */}

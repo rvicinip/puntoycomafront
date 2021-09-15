@@ -9,7 +9,6 @@ import routes from "routes.js";
 import Sidebar from "components/Menu/Sidebar.js";
 import Login from "components/Login/Login.js";
 import { Container, Col, Row, Card } from "react-bootstrap";
-
 function Layout() {
   // Carga de Variables de contexto
 

@@ -14,7 +14,7 @@ import OfertasyPromos from "components/Empresa/OfertasyPromos.js";
 import PatronesConsumo from "components/Empresa/PatronesConsumo.js";
 import Redencion from "components/Empresa/Redencion.js"
 import SeguimientoCliente from "components/Empresa/SeguimientoCliente.js"
-import SMSPromocion from "components/Empresa/TablaFrecuenciasConsultor.js"
+import SMSPromocion from "components/Empresa/SMSPromocion.js"
 import SubirFacturas from "components/Empresa/SubirFacturas.js"
 import SubirIncentivos from "components/Empresa/SubirIncentivos.js"
 import Usuarios from "components/Empresa/Usuarios.js"
